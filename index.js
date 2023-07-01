@@ -56,4 +56,4 @@ app.post("*/crearpedido", async (req, res) => {
   }
 });
 
-servidor.listen(4000, () => console.log("Servidor inicializado"));
+servidor.listen(80, () => console.log("Servidor inicializado"));
