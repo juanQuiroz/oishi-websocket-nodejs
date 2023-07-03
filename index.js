@@ -56,6 +56,6 @@ app.post("*/crearpedido", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3000;
 
-servidor.listen(80, () => console.log("Servidor inicializado"));
+servidor.listen(PORT, () => console.log("Servidor inicializado"));
