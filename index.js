@@ -10,6 +10,7 @@ const socketio = require("socket.io");
 const io = socketio(servidor);
 const axios = require("axios");
 
+// ...
 // "https://www.oishi.pe"
 
 app.use((req, res, next) => {
